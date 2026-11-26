@@ -1,0 +1,20 @@
+:root {
+    --background-colour: #CBC5EA;
+    --text-colour: #313D5A;
+    --secondary-colour: #73628A;
+    --secondary-text-colour: #EAEAEA;
+}
+
+
+@font-face {
+    font-family: "Monaspace Radon";
+    src: url("/src/assets/monaspaceradon.otf")
+}
+
+body {
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+    font-family: "Monaspace Radon", monospace;
+    margin: 0;
+    padding: 0;
+}
